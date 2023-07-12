@@ -1,19 +1,19 @@
-#RTC CLOCK
+# RTC CLOCK
 
-* Displaying real time date and time with AM and PM in 12/24 hour format
-* In this project we are displaying in 12 hour format.
-##components
-* RTC DS1307 module
-* Arduiono uno
-* 8x32 Max 7219 dot matrix
-* Jumper wires
+This project displays the real-time date and time with AM and PM indicators in a 12-hour format. The project utilizes the following components:
 
-##library
-* LEDMatrixDriver.hpp
-* RtcDS1307.h
-* Wire.h
+## Components
+- RTC DS1307 module
+- Arduino Uno
+- 8x32 Max 7219 dot matrix
+- Jumper wires
 
-###All libraries are available inside "libraries for project" directory
+## Library
+The project requires the following libraries, which can be found inside the "libraries for project" directory:
 
-##circuit
-* check circuit folder
+- LEDMatrixDriver.hpp
+- RtcDS1307.h
+- Wire.h
+
+## Circuit
+For the circuit diagram, please refer to the "circuit" folder.
